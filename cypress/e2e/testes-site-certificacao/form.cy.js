@@ -4,6 +4,17 @@ describe('Página de Certificação - Testes Automatizados', () => {
   })
 
   context('Teste do Formulário de Inscrição', () => {
+  it('Não deve aceitar email inválido', () => {
+
+   cy.get('input[name="pessoa.emailPrincipal"]', {timeout:10000})
+    .type('emailinvalido')
+
+    cy.get('button[name="rbBtnNext"]')
+    .first()
+    cy.contains('Preencha este campo').should('be.visible')
+  
+
+})
 
   it('Deve exibir erro de base legal ao enviar formulário', () => {
 
