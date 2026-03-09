@@ -7,7 +7,7 @@ Este repositório contém a documentação de testes (manuais e automatizados) e
 O objetivo foi validar o fluxo principal de inscrição, a integridade dos links sociais e a conformidade visual (UI/UX) tanto em ambiente Desktop quanto Mobile.
 
 ## Tecnologias Utilizadas
-* **Testes Automatizados:** Cypress 13+
+* **Testes Automatizados:** Cypress ^15.11.0
 * **Linguagem:** JavaScript
 * **Testes Manuais:** Inspeção visual e Firefox DevTools
 
@@ -15,14 +15,14 @@ O objetivo foi validar o fluxo principal de inscrição, a integridade dos links
 
 ### 1. Testes Automatizados (Cypress)
 Os seguintes itens foram automatizados para garantir a regressão das funcionalidades críticas:
-* **Fluxo de Inscrição:** Verificação de mensagens de erro ao submeter dados válidos (Bug #01).
-* **Validação de Campos:** Checagem de obrigatoriedade e tipos de dados (Bug #02).
-* **Links de Redes Sociais:** Validação dos atributos `href` no footer (Bug #04).
+* **Fluxo de Inscrição:** Verificação de mensagens de erro ao submeter dados válidos.
+* **Validação de Campos:** Checagem de obrigatoriedade e tipos de dados.
+* **Links de Redes Sociais:** Validação dos atributos `href` no footer.
 
 ### 2. Testes Manuais e Exploratórios
 Itens que exigem análise visual foram validados manualmente:
-* **Interface (UI):** Alinhamento de ícones e qualidade de imagem (Bugs #05, #07).
-* **Conteúdo:** Padronização de textos e gramática (Bug #06).
+* **Interface (UI):** Alinhamento de ícones e qualidade de imagem.
+* **Conteúdo:** Padronização de textos e gramática.
 
 ---
 

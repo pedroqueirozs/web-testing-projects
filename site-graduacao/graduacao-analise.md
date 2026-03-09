@@ -7,7 +7,7 @@ Este repositório contém a documentação de testes (manuais e automatizados) e
 O objetivo foi validar o fluxo principal de inscrição, a integridade dos links sociais e a conformidade visual (UI/UX) tanto em ambiente Desktop quanto Mobile.
 
 ## Tecnologias Utilizadas
-* **Testes Automatizados:** Cypress 13+
+* **Testes Automatizados:** Cypress ^15.11.0
 * **Linguagem:** JavaScript
 * **Testes Manuais:** Inspeção visual e Firefox DevTools
 
