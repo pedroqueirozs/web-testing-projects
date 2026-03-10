@@ -88,5 +88,4 @@ Abaixo estão detalhados os problemas identificados durante o ciclo de teste, cl
   * **Descrição: Foi identificado  inconsistências visuais na padronização de elementos gráficos ao longo da página, incluindo: Imagens exibidas com proporções inadequadas, apresentando distorção ou falta de adaptação correta ao layout em diferentes resoluções; ícones de Check Circles (ícones circulares acima da sessão “Outros Cursos”) com tamanhos diferentes dentro da mesma sessão; desalinhamento entre ícones e textos associados (Dentro da sessão “Outros Cursos”); espaçamento irregular entre itens que pertencem ao mesmo grupo visual. Os problemas de espaçamentos entre elementos e imagens e elementos foram observados tanto na versão desktop quanto mobile.** 
 ---
 
-## Como executar os testes automatizados
 
