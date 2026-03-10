@@ -6,10 +6,6 @@ Este repositório contém a documentação de testes (manuais e automatizados) e
 ## Escopo do Projeto
 O objetivo foi validar o fluxo principal de inscrição, a integridade dos links sociais e a conformidade visual (UI/UX) tanto em ambiente Desktop quanto Mobile.
 
-## Tecnologias Utilizadas
-* **Testes Automatizados:** Cypress ^15.11.0
-* **Linguagem:** JavaScript
-* **Testes Manuais:** Inspeção visual e Firefox DevTools
 
 ## Estrutura de Testes
 
@@ -105,5 +101,3 @@ Abaixo estão detalhados os problemas identificados durante o ciclo de teste, cl
   * **Prioridade: Baixa** 
   * **Descrição: O título **“O QUE NOSSOS ALUNOS DIZEM?”** encontra-se sublinhado, sugerindo que se trata de um elemento clicável. Entretanto, o título não possui nenhuma funcionalidade associada, podendo gerar expectativa incorreta de interação para o usuário.** 
 ---
-
-## Como executar os testes automatizados
