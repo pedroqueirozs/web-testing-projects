@@ -44,48 +44,56 @@ Abaixo estão detalhados os problemas identificados durante o ciclo de teste, cl
   * **Classificação: Utilidade** 
   * **Prioridade: Alta** 
   * **Descrição: Ao submeter o formulário de inscrição, a aplicação retorna a mensagem de erro “É necessário informar a base legal”. Entretanto, ao analisar o payload da requisição enviada para a API, foi identificado que não existe nenhum campo relacionado à base legal ou consentimento LGPD sendo enviado, como por exemplo legalBase, consent ou privacyAccepted. Além disso, a interface do usuário não apresenta nenhum campo visível que permita informar ou aceitar essa base legal, impossibilitando o envio correto da informação exigida pelo backend.** 
+  * **Evidência: [Ver evidência](../evidencias/evidencias-site-certificacao/item01-erro-base-legal.png)**
  
 * **Item 02 - Inconsistência de validação entre campos obrigatórios no formulário <a name="item-02"></a>**
   * **Tipo: Correção** 
   * **Classificação: Utilidade** 
   * **Prioridade: Alta** 
   * **Descrição: O campo E-mail apresenta validação obrigatória, enquanto Nome e Telefone permitem submissão vazia, demonstrando inconsistência no padrão de validação. Campo nome permite preenchimento com números.** 
+  * **Evidência: [Ver evidência](../evidencias/evidencias-site-certificacao/item02-erro-validacao-form.mp4)**
 
 * **Item 03 - Falha na requisição ao submeter formulário <a name="item-03"></a>**
   * **Tipo: Correção** 
   * **Classificação: Utilidade** 
   * **Prioridade: Alta** 
   * **Descrição: Após a submissão do formulário quando o  botão "Avançar" é clicado, é realizada uma requisição HTTP do tipo PATCH para o endpoint de envio de dados.Entretanto, a requisição retorna status 403 (Forbidden), impedindo a conclusão do fluxo de inscrição Além disso, considerando que o formulário aparenta criar um novo registro de inscrição, o método HTTP esperado seria POST.** 
+  * **Evidência: [Ver evidência](../evidencias/evidencias-site-certificacao/item03-erro-requisicao.png)**
 
 * **Item 04 - Botão "Saiba mais" não executa ação <a name="item-04"></a>**
   * **Tipo: Correção** 
   * **Classificação: Utilidade** 
   * **Prioridade: Alta** 
-  * **Descrição: O botão “Saiba mais” não executa nenhuma ação ao ser clicado, não redirecionando nem expandindo conteúdo.** 
+  * **Descrição: O botão “Saiba mais” não executa nenhuma ação ao ser clicado, não redirecionando nem expandindo conteúdo.**
+  * **Evidência: [Ver evidência](../evidencias/evidencias-site-certificacao/item04-erro-botao-saiba-mais.mp4)** 
 
 * **Item 05 - Ícone do YouTube (no footer da pagina) redireciona incorretamente <a name="item-05"></a>**
   * **Tipo: Correção** 
   * **Classificação: Utilidade** 
   * **Prioridade: Média** 
   * **Descrição:O ícone identificado como da platarforma YouTube redireciona o usuário para a plataforma TikTok.** 
+  * **Evidência: [Ver evidência](../evidencias/evidencias-site-certificacao/item05-erro-de-redirecionamento-icone-youtube.mp4)**
 
 * **Item 06 - Ícones de redes sociais (no footer da pagina) com baixa qualidade visual <a name="item-06"></a>**
   * **Tipo: Melhoria** 
   * **Classificação:Desejabilidade** 
   * **Prioridade: Baixa** 
   * **Descrição:Os ícones das redes sociais que redirecionam o usuário no footer da pagina apresentam aparência levemente embaçada.** 
+  * **Evidência: [Ver evidência](../evidencias/evidencias-site-certificacao/item06-qualidade-de-icones-footer.png)**
 
 * **Item 07 - Inconsistência na padronização de frases e formatação de textos <a name="item-07"></a>**
   * **Tipo: Correção** 
   * **Classificação: Desejabilidade** 
   * **Prioridade: Média** 
   * **Descrição: Foram identificadas inconsistências na padronização textual ao longo da página, incluindo: Palavras que compões titulos e/ou subtitulos iniciadas com letra maiúscula no meio de frases sem justificativa gramatical. Falta de formatação e/ou justificação de textos longos.** 
+  * **Evidência: [Ver evidência](../evidencias/evidencias-site-certificacao/item07-falta-de-padronizacao-textual.mp4)**
 
 * **Item 08 - Inconsistências de alinhamento e padronização visual em ícones e imagens <a name="item-08"></a>**
   * **Tipo: Melhoria** 
   * **Classificação: Desejabilidade** 
   * **Prioridade: Média** 
-  * **Descrição: Foi identificado  inconsistências visuais na padronização de elementos gráficos ao longo da página, incluindo: Imagens exibidas com proporções inadequadas, apresentando distorção ou falta de adaptação correta ao layout em diferentes resoluções; ícones de Check Circles (ícones circulares acima da sessão “Outros Cursos”) com tamanhos diferentes dentro da mesma sessão; desalinhamento entre ícones e textos associados (Dentro da sessão “Outros Cursos”); espaçamento irregular entre itens que pertencem ao mesmo grupo visual. Os problemas de espaçamentos entre elementos e imagens e elementos foram observados tanto na versão desktop quanto mobile.** 
+  * **Descrição: Foi identificado  inconsistências visuais na padronização de elementos gráficos ao longo da página, incluindo: Imagens exibidas com proporções inadequadas, apresentando distorção ou falta de adaptação correta ao layout em diferentes resoluções; ícones de Check Circles (ícones circulares acima da sessão “Outros Cursos”) com tamanhos diferentes dentro da mesma sessão; desalinhamento entre ícones e textos associados (Dentro da sessão “Outros Cursos”); espaçamento irregular entre itens que pertencem ao mesmo grupo visual. Os problemas de espaçamentos entre elementos e imagens e elementos foram observados tanto na versão desktop quanto mobile.**
+  * **Evidência: [Ver evidência](../evidencias/evidencias-site-certificacao/item08-alinhamento-padronização-icones-imagens.mp4)**
 ---
 
 
